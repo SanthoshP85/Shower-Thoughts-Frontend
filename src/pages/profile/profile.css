@@ -1,0 +1,156 @@
+.profile{
+    display: flex;
+}
+.profileRight{
+    flex: 9;
+}
+.profileCover{
+    height: 320px;
+    position: relative;
+}
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.profileUserImg{
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    top:150px;
+    border:3px solid orange;
+}
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profileInfoName{
+    font-size: 24px;
+}
+.profileInfoDesc{
+    font-weight: 300;
+}
+.profileRightBottom{
+    display: flex;
+}
+.profilePic{
+    display: flex;
+      height:20px ;
+    justify-content: center;
+    font-size: 100px;
+}
+.uploadIcon{
+   
+  
+    margin-bottom:14 px;
+    
+}
+.editText::placeholder{
+    color: rgb(119, 117, 117);
+}
+
+.editProfile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 120px;
+    margin: 10px;
+    background-color: orange;
+   flex-direction: column;
+}
+
+.editProfileButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    border: none;
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 130px;
+  }
+
+.editProfileIcon{
+  align-items: center;
+    margin-bottom: 20px;
+  
+   font-weight: bold;
+   text-align: center;
+}
+.editLabel{
+    margin: 5px;
+}
+.editProfileImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 20px;
+    height:20px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:auto;
+    top:150px;
+    
+}
+.editSave{
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    
+}
+.coverIconName {
+    color: white;
+}
+
+
+.profIconName {
+    color: white;
+}
+/*600px*/
+@media only screen and (max-width: 600px){
+    .profileRightBottom{
+        display: flex;
+        flex-direction:column-reverse;
+    
+    }
+    .rightBar{
+        max-width: 100%;
+        flex: 100%;
+        align-items: center;
+    }
+    .profCoverIcon {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .profCoverIconName{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1px;
+        flex-wrap: wrap;
+        
+    }
+
+}

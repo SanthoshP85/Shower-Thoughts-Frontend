@@ -1,0 +1,148 @@
+.post{
+    width:100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin: 30px 0;
+    
+}
+.postWrapper{
+    padding: 10px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+.postProfileImg{
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.postDate{
+    font-size: 12px;
+}
+.postCenter{
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.postImg{
+    margin-top: 20px;
+    width:100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.postBottomRight{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.likeIcon{
+    width:24px;
+    height:24px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.postLikeCounter{
+    font-size: 15px;
+    font-weight: bold;
+}
+.postDelete{
+    cursor:pointer;
+    
+    font-size: 15px;
+    margin: 7px;
+    text-decoration-style: none;
+}
+.postEdit {
+    text-decoration-style: none;
+    cursor: pointer;
+   
+    font-size: 12px;
+
+   
+}
+.postDelete{
+    text-decoration-style: none;
+    cursor: pointer;
+    
+    font-size: 12px;
+    
+}
+.editPostImg{
+    width: 50%;
+}
+.editPostImgCenter{
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+   
+    margin:auto;
+    top:150px;
+    border:3px solid white;
+}
+.editLabel{
+    margin: 5px;
+    color: white;
+}
+.editTextArea{
+    resize: none;
+    color: white;
+    width: 70%;
+}
+.editPostImg{
+   width: 100px;
+   height:100px;
+   margin: 5px;
+    
+}
+.editSave{
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    
+}
+.editText{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin-left: 50px;
+    resize: none;
+    height: 15px;
+    overflow-wrap: inherit;
+    color: white;
+}
+
