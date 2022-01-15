@@ -152,6 +152,7 @@
     .topbarImg{
         width:30px;
     height: 30px;
+    margin-top: 7px;
     margin-left: 7px;
     margin-right: 7px;
     }
@@ -161,17 +162,18 @@
     }
     .logoutButton{
         font-size: 14px;
+        margin-top: 5px ;
     }
 }
 
-/*430px*/
-@media only screen and (max-width: 430px) {
+
+@media only screen and (max-width: 400px) {
     .logo{
-        font-size: 13px;
-        margin-left: 2px;
+        font-size: 15px;
+        margin-left: 1px;
     }
     .searchIcon{
-        font-size: 1px;
+        font-size: 2px;
         margin-bottom: 7px;
     }
     .notificationIcon{
@@ -189,7 +191,8 @@
         height: 6px;
     }
     .logoutButton{
-        font-size: 5px;
+        font-size: 6px;
+        margin-top: 6px;
     }
 }
 
