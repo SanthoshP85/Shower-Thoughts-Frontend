@@ -19,14 +19,12 @@
     align-items: center;
 }
 .logo{
-    /* font-size: 24px;
+
     margin-left: 10px;
     font-weight: bold;
-    cursor:pointer; */
-    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
-    /* font-family:'Fredoka One', cursive; */
+    cursor:pointer; 
     font-family: 'Titan One',cursive;
-    font-size: 30px;
+    font-size: 50px;
     padding: 80px 5px;
     text-align: center;
     color: orange;
